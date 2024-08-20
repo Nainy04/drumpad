@@ -1,4 +1,4 @@
-function produceSound(btn){
+function _produceSound(btn){
     const sound =document.getElementById("audio");
     switch (btn) {
         case 'a':
