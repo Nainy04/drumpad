@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(./background\(1\).jpg);
+    background-size: cover;
+   
+}
+
+button{
+   
+    background-color: rgba(0, 0, 0, 0.614);
+    border: 2px solid;
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: bolder;
+    height: 100px;
+    width: 100px;
+    border-color: black;
+}
+
+
+button:active{
+    background-color: rgba(179, 39, 39, 0.581);
+    border-color: rgb(229, 246, 39);
+    font-size: xx-large;
+    
+
+}
+
+
+p{
+    font-size: small;
+    color: rgb(240, 247, 39);
+}
+
+kbd {
+    font-family: monospace;
+    padding: 2px 4px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
